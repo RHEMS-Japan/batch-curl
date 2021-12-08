@@ -1,2 +1,2 @@
-FROM alpine:latest
-RUN apk add curl
+FROM amazon/aws-cli
+RUN yum install curl
