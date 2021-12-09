@@ -1,2 +1,2 @@
 FROM amazon/aws-cli
-RUN yum install curl
+RUN yum install -y curl jq
