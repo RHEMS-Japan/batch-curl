@@ -1,2 +1,2 @@
 FROM amazonlinux
-RUN yum install -y curl jq
+RUN yum install -y curl jq awscli
